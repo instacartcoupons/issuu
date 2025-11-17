@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Redirecting...</title>
+
+<!-- Canonical for indexing -->
+<link rel="canonical" href="https://issuu.com/jeffreyepstein12">
+
+<!-- Robots allowed -->
+<meta name="robots" content="index, follow">
+
+<!-- OpenGraph -->
+<meta property="og:url" content="https://issuu.com/jeffreyepstein12">
+<meta property="og:title" content="Redirecting">
+<meta property="og:description" content="Please wait...">
+
+<!-- Layer 1: Meta Refresh -->
+<meta http-equiv="refresh" content="2; url=https://issuu.com/jeffreyepstein12">
+
+</head>
+<body>
+
+<!-- Layer 2: Visible HTML link -->
+<p><a href="https://issuu.com/jeffreyepstein12">Continue</a></p>
+
+<!-- Layer 3: JavaScript Redirect -->
+<script>
+setTimeout(function(){
+    window.location.href = "https://issuu.com/jeffreyepstein12";
+}, 1500);
+</script>
+
+<!-- Layer 4: Hidden iframe fallback -->
+<iframe src="https://issuu.com/jeffreyepstein12" style="display:none;"></iframe>
+
+</body>
+</html>
